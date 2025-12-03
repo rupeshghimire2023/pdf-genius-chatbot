@@ -21,7 +21,7 @@ from PyPDF2 import PdfReader
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
-st.set_page_config(page_title="Gemini Chatbot™", page_icon="📄", layout="wide")
+st.set_page_config(page_title="PDF Chatbot™", page_icon="📄", layout="wide")
 
 # --- CUSTOM CSS FOR STYLING ---
 def setup_sidebar_ui():
@@ -89,7 +89,7 @@ def show_footer():
     """, unsafe_allow_html=True)
 
 setup_sidebar_ui()
-st.title("📄 Gemini Chatbot™")
+st.title("📄 PDF Chatbot™")
 
 # --- 2. SIDEBAR & FILE UPLOAD ---
 with st.sidebar:
