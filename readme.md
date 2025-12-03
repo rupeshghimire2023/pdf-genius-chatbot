@@ -1,5 +1,14 @@
 # 📄 Genius PDF Chatbot
 
+# 📄 PDF Chatbot™ by Rupesh Ghimire
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pdf-genius-chatbot.streamlit.app/)
+
+**[Click here to Try the Live Demo](https://pdf-genius-chatbot.streamlit.app/)**
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+...
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=LangChain&logoColor=white)
@@ -84,5 +93,6 @@ my_first_chatbot/
 ├── requirements.txt      # List of python libraries
 ├── README.md             # Project documentation
 └── venv/                 # Virtual environment folder
+
 
 
