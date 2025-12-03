@@ -1,4 +1,9 @@
-# 📄 Gemini PDF Chatbot
+# 📄 Genius PDF Chatbot
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=LangChain&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
 
 A Python-based RAG (Retrieval-Augmented Generation) application that allows you to upload PDF documents and chat with them using Google's Gemini AI. 
 
