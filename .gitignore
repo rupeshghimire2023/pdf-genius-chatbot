@@ -1,0 +1,9 @@
+# Ignore the Virtual Environment folder
+venv/
+.env
+__pycache__/
+*.pyc
+check_availibility.py
+
+# Ignore Mac system files
+.DS_Store
