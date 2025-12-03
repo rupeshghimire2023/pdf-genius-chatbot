@@ -1,6 +1,6 @@
 # 📄 Genius PDF Chatbot
 
-# 📄 Gemini Chatbot™ by Rupesh Ghimire
+# 📄 PDF Chatbot™ by Rupesh Ghimire
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pdf-genius-chatbot.streamlit.app/)
 
