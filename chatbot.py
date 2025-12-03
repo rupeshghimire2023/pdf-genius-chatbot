@@ -27,10 +27,13 @@ st.set_page_config(page_title="Gemini Chatbot™", page_icon="📄", layout="wid
 def setup_sidebar_ui():
     st.markdown("""
     <style>
+        /* 1. Sidebar Background */
         [data-testid="stSidebar"] {
             background-color: #f0f2f6;
             border-right: 1px solid #e0e0e0;
         }
+
+        /* 2. File Uploader Styling */
         [data-testid="stFileUploader"] {
             width: 100%;
         }
@@ -44,6 +47,8 @@ def setup_sidebar_ui():
             border-color: #45a049;
             background-color: #f9fff9;
         }
+
+        /* 3. Headers & Success Boxes */
         .sidebar-header {
             font-size: 24px;
             font-weight: bold;
@@ -59,18 +64,16 @@ def setup_sidebar_ui():
             margin-top: 10px;
             border: 1px solid #c3e6cb;
         }
+
+        /* 4. Footer Styling (Now Static - No Overlap) */
         .sidebar-footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 20rem;
-            padding: 20px;
-            background-color: #f0f2f6;
-            border-top: 1px solid #e0e0e0;
+            width: 100%;
             text-align: center;
             font-size: 12px;
             color: #666;
-            z-index: 99;
+            padding-top: 30px;
+            margin-top: 20px;
+            border-top: 1px solid #e0e0e0;
         }
     </style>
     """, unsafe_allow_html=True)
